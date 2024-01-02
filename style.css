@@ -1,96 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --primary: #3662E3;
+  --primary-rgb: 54, 98, 227;
+  --primary-light: #E1E8FB;
+  --primary-light-rgb: 225, 232, 251;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
+/* GLOBAL STYLES */
 
 body {
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+
+  display: grid;
+  grid-template-rows: repeat(12, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas: 
+    "info info info info head head head head head head head head"
+    "info info info info main main main main main main main main"
+    "info info info info main main main main main main main main"
+    "info info info info main main main main main main main main"
+    "info info info info main main main main main main main main"
+    "other other other other main main main main main main main main"
+    "other other other other main main main main main main main main"
+    "other other other other main main main main main main main main"
+    "other other other other main main main main main main main main"
+    "other other other other main main main main main main main main"
+    "other other other other main main main main main main main main"
+    "other other other other main main main main main main main main";
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+h2 {
+  font-size: 1.5em;
+  margin: 0;
+  padding-bottom: 0.25em;
+
+  border-bottom: 2px solid var(--primary);
+  color: var(--primary);
+  
+  text-transform: uppercase;
+  
+  min-width: 75%;
+  width: fit-content;
 }
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* INFO SECTION */
+
+#info {
+  background-color: var(--primary);
+  color: #fff;
+  grid-area: info;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #f7df1eaa);
+#info img {
+  --_size: 150px;
+  width: var(--_size);
+  height: var(--_size);
+  border-radius: 50%;
+  display: block;
+  border: 5px solid #fff;
 }
 
-.card {
-  padding: 2em;
+#info h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 1rem;
 }
 
-.read-the-docs {
-  color: #888;
+#info p {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 1rem;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+#info a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+/* HEADER SECTION */
+
+#head {
+  background-color: var(--primary-light);
+  grid-area: head;
+}
+
+/* MAIN SECTION */
+#main {
+  grid-area: main;
+  padding: 1rem;
+}
+
+/* OTHER SECTION */
+#other {
+  grid-area: other;
+  background-color: var(--primary-light);
+  padding: 1rem;
 }
