@@ -11,77 +11,50 @@
   "education": [
     {
       "institution": "Coding Factory by ESIEE-IT, Cergy",
-      "studyType": "Analyste développeur d'applications informatiques",
+      "title": "Analyste développeur d'applications informatiques",
       "date": "2019-09-10 - 2021-09-06",
       "url": "https://codingfactory.fr/"
     },
     {
       "institution": "Lycée Charles de Gaulle, Poissy",
-      "studyType": "Baccalauréat Scientifique",
+      "title": "Baccalauréat Scientifique",
       "date": "2016-09-01 - 2019-06-24",
       "summary": "<ul><li><p>Sciences de l'ingénieur</p></li><li><p>Informatique et Sciences du numérique</p></li></ul>"
     }
   ],
-  "experience": {
-    "name": "Experience",
-    "columns": 1,
-    "visible": true,
-    "id": "experience",
-    "items": [
-      {
-        "id": "myj8d0hukjq3zwtsm8arnemh",
-        "visible": true,
-        "company": "Vittascience",
-        "position": "Développeur web",
-        "location": "",
-        "date": "2021-10-01 - ",
-        "summary": "<ul><li><p>Création d'une application pour un robot sous Android permettant de contrôler ce dernier avec du JavaScript</p></li></ul><ul><li><p>Refonte entière du site avec Bootstrap 5, avec la création d'un thème personnalisé</p></li><li><p>Assurer la maintenance et l'évolution du LMS pour plusieurs clients (Texas Instruments, AREN, </p></li><li><p>Refonte entière d'un site ASP.NET vers PHP en 6 mois (<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://maclasseti.fr\">MaClasseTI.fr</a>)</p></li></ul>",
-        "url": {
-          "label": "",
-          "href": "https://vittascience.com"
-        }
-      },
-      {
-        "id": "e4bv5tnqlp0kjpmgdtv1xaj6",
-        "visible": true,
-        "company": "Vittascience",
-        "position": "Alternance (Développeur web)",
-        "location": "",
-        "date": "2020-10-12 - 2021-09-30",
-        "summary": "<ul><li><p>Intégrer les designs responsive pour la plateforme Classe (LMS) en collaboration avec plusieurs membres de l'équipe, en tenant compte des retours de professeurs</p><ul><li><p>Mettre en place un système de thème via variables CSS suite au passage du projet en open source</p></li></ul></li><li><p>Mettre en place un nouveau design pour la boutique, en utilisant les connaissances acquises sur la plateforme Classe</p></li><li><p>Réaliser la nouvelle page d'accueil du site ainsi que de diverses landing pages pour différents projets </p></li></ul>",
-        "url": {
-          "label": "",
-          "href": "https://vittascience.com/"
-        }
-      },
-      {
-        "id": "fefvgibe87sbuidifzgy2w9k",
-        "visible": true,
-        "company": "Vittascience",
-        "position": "Stage (Développeur web)",
-        "location": "",
-        "date": "2020-03-30 - 2020-08-28",
-        "summary": "- Améliorer l'aspect accessibilité du site, en mettant en place un système de thèmes clair/sombre ainsi que le choix de différentes typographies destinées aux personnes dyslexiques/malvoyantes, tout en gardant une interface cohérente\n- Assister à la création d'un simulateur de carte Arduino & BBC micro:bit en implémentant des visuels aux modules existants pour ajouter de l'interactivité, puis en ajoutant de nouveaux modules\n- Commencer l'intégration de maquettes Adobe XD pour la réalisation d'une fonctionnalité Learning Management System \n- Créer de pages dédiées au contenu inclus dans des livrets d'exercices Hatier afin d'avoir une expérience simplifiée pour leurs utilisateurs\n",
-        "url": {
-          "label": "",
-          "href": "https://vittascience.com/"
-        }
-      },
-      {
-        "id": "atcph2h7u4y4g8yjjbzb6sf4",
-        "visible": true,
-        "company": "Groupe PSA",
-        "position": "Stage d'observation (Support Local Informatique)",
-        "location": "",
-        "date": "2015-12-01 - 2015-12-02",
-        "summary": "- Découverte de la mise en place d’un environnement informatique pour une entreprise (Support au Poste Informatique)\n- Visite du Datacenter PSA situé à Achères\n- Usage fréquent de ​Microsoft Office",
-        "url": {
-          "label": "",
-          "href": ""
-        }
-      }
-    ]
-  },
+  "experiences": [
+    {
+      "company": "Vittascience",
+      "position": "Développeur web",
+      "location": "",
+      "date": "Octobre 2021 - Aujourd'hui",
+      "summary": "<ul><li><p>Création d'une application pour un robot sous Android permettant de contrôler ce dernier avec du JavaScript</p></li></ul><ul><li><p>Refonte entière du site avec Bootstrap 5, avec la création d'un thème personnalisé</p></li><li><p>Assurer la maintenance et l'évolution du LMS pour plusieurs clients (Texas Instruments, AREN, </p></li><li><p>Refonte entière d'un site ASP.NET vers PHP en 6 mois (<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://maclasseti.fr\">MaClasseTI.fr</a>)</p></li></ul>",
+      "url": "https://vittascience.com"
+    },
+    {
+      "company": "Vittascience",
+      "position": "Alternance (Développeur web)",
+      "location": "",
+      "date": "Octobre 2020 - Septembre 2021",
+      "summary": "<ul><li><p>Intégrer les designs responsive pour la plateforme Classe (LMS) en collaboration avec plusieurs membres de l'équipe, en tenant compte des retours de professeurs</p><ul><li><p>Mettre en place un système de thème via variables CSS suite au passage du projet en open source</p></li></ul></li><li><p>Mettre en place un nouveau design pour la boutique, en utilisant les connaissances acquises sur la plateforme Classe</p></li><li><p>Réaliser la nouvelle page d'accueil du site ainsi que de diverses landing pages pour différents projets </p></li></ul>",
+      "url": "https://vittascience.com/"
+    },
+    {
+      "company": "Vittascience",
+      "position": "Stage (Développeur web)",
+      "location": "",
+      "date": "Mars 2020 - Août 2020",
+      "summary": "<ul><li><p>Améliorer l'aspect accessibilité du site, en mettant en place un système de thèmes clair/sombre ainsi que le choix de différentes typographies destinées aux personnes dyslexiques/malvoyantes, tout en gardant une interface cohérente</p></li><li><p>Assister à la création d'un simulateur de carte Arduino & BBC micro:bit en implémentant des visuels aux modules existants pour ajouter de l'interactivité, puis en ajoutant de nouveaux modules</p></li><li><p>Intégrer des maquettes Adobe XD pour la réalisation d'une fonctionnalité Learning Management System </p></li><li><p>Créer de pages dédiées au contenu inclus dans des livrets d'exercices Hatier afin d'avoir une expérience simplifiée pour leurs utilisateurs</p></li></ul>",
+      "url": "https://vittascience.com/"
+    },
+    {
+      "company": "Groupe PSA",
+      "position": "Stage d'observation (Support Local Informatique)",
+      "location": "",
+      "date": "2015-12-01 - 2015-12-02",
+      "summary": "- Découverte de la mise en place d’un environnement informatique pour une entreprise (Support au Poste Informatique)\n- Visite du Datacenter PSA situé à Achères\n- Usage fréquent de ​Microsoft Office"
+    }
+  ],
   "interests": ["Design / Graphisme (Autodidacte)", "Retrogaming", "MMORPGs"],
   "languages": [
     {
@@ -93,34 +66,17 @@
       "description": "Courant"
     }
   ],
-  "projects": {
-    "items": [
-      {
-        "id": "cd7hc0rq2sxjzqu9fc354km2",
-        "visible": true,
-        "name": "Portfolio",
-        "description": "Personnel",
-        "date": "2023-06-25 - ",
-        "summary": "Site réalisé avec Astro, Tailwind CSS et React afin de lister mes différents projets et expériences professionnelles.",
-        "keywords": [],
-        "url": {
-          "label": "",
-          "href": "https://maxencelav.dev"
-        }
-      },
-      {
-        "id": "uyi2b5qpy92cor4jyvjbcv4f",
-        "visible": true,
-        "name": "TECHNO 293 Bic Championnat d’Europe à Larmor-Plage",
-        "description": "Personnel",
-        "date": "2017-06-23 - 2017-07-12",
-        "summary": "Aide à la mise en place de la page de connexion (HTML + CSS) pour la borne Wi-Fi destinée aux participants de la course.",
-        "keywords": [],
-        "url": {
-          "label": "",
-          "href": ""
-        }
-      }
-    ]
-  }
+  "projects": [
+    {
+      "name": "Portfolio",
+      "date": "Juin 2023 - Aujourd'hui",
+      "summary": "Site réalisé avec Astro, Tailwind CSS et React afin de lister mes différents projets et expériences professionnelles.",
+      "url": "https://maxencelav.dev"
+    },
+    {
+      "name": "TECHNO 293 Bic Championnat d’Europe à Larmor-Plage",
+      "date": "Juillet 2017",
+      "summary": "Aide à la mise en place de la page de connexion (HTML + CSS) pour la borne Wi-Fi destinée aux participants de la course."
+    }
+  ]
 }
