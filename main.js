@@ -64,6 +64,12 @@ window.addEventListener('DOMContentLoaded', () => {
                 itemDescription.innerText = item.description;
                 itemContainer.appendChild(itemDescription);
             }
+            if (item.position) {
+                let itemPosition = document.createElement("p");
+                itemPosition.classList.add("position");
+                itemPosition.innerText = item.position;
+                itemContainer.appendChild(itemPosition);
+            }
 
 
             // ASIDE
@@ -75,6 +81,12 @@ window.addEventListener('DOMContentLoaded', () => {
             }
 
             // OTHER
+            if (item.summary) {
+                let itemSummary = document.createElement("p");
+                itemSummary.classList.add("summary");
+                itemSummary.innerHTML = item.summary;
+                itemContainer.appendChild(itemSummary);
+            }
             if (item.url) {
                 let itemUrl = document.createElement("a");
                 itemUrl.classList.add("url");
@@ -82,12 +94,6 @@ window.addEventListener('DOMContentLoaded', () => {
                 itemUrl.href = item.url;
                 itemUrl.target = "_blank";
                 itemContainer.appendChild(itemUrl);
-            }
-            if (item.summary) {
-                let itemSummary = document.createElement("p");
-                itemSummary.classList.add("summary");
-                itemSummary.innerHTML = item.summary;
-                itemContainer.appendChild(itemSummary);
             }
         
             

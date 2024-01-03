@@ -19,7 +19,7 @@
       "institution": "Lycée Charles de Gaulle, Poissy",
       "title": "Baccalauréat Scientifique",
       "date": "2016-09-01 - 2019-06-24",
-      "summary": "<ul><li><p>Sciences de l'ingénieur</p></li><li><p>Informatique et Sciences du numérique</p></li></ul>"
+      "summary": "Sciences de l'ingénieur, option Informatique et Sciences du numérique"
     }
   ],
   "experiences": [
@@ -28,7 +28,7 @@
       "position": "Développeur web",
       "location": "",
       "date": "Octobre 2021 - Aujourd'hui",
-      "summary": "<ul><li><p>Création d'une application pour un robot sous Android permettant de contrôler ce dernier avec du JavaScript</p></li></ul><ul><li><p>Refonte entière du site avec Bootstrap 5, avec la création d'un thème personnalisé</p></li><li><p>Assurer la maintenance et l'évolution du LMS pour plusieurs clients (Texas Instruments, AREN, </p></li><li><p>Refonte entière d'un site ASP.NET vers PHP en 6 mois (<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://maclasseti.fr\">MaClasseTI.fr</a>)</p></li></ul>",
+      "summary": "<ul><li><p>Création d'une application pour un robot sous Android permettant de contrôler ce dernier avec du JavaScript</p></li><li><p>Refonte entière du site avec Bootstrap 5, avec la création d'un thème personnalisé</p></li><li><p>Assurer la maintenance et l'évolution du LMS pour plusieurs clients (Texas Instruments, AREN, </p></li><li><p>Refonte entière d'un site ASP.NET vers PHP en 6 mois (<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://maclasseti.fr\">MaClasseTI.fr</a>)</p></li></ul>",
       "url": "https://vittascience.com"
     },
     {
@@ -36,7 +36,7 @@
       "position": "Alternance (Développeur web)",
       "location": "",
       "date": "Octobre 2020 - Septembre 2021",
-      "summary": "<ul><li><p>Intégrer les designs responsive pour la plateforme Classe (LMS) en collaboration avec plusieurs membres de l'équipe, en tenant compte des retours de professeurs</p><ul><li><p>Mettre en place un système de thème via variables CSS suite au passage du projet en open source</p></li></ul></li><li><p>Mettre en place un nouveau design pour la boutique, en utilisant les connaissances acquises sur la plateforme Classe</p></li><li><p>Réaliser la nouvelle page d'accueil du site ainsi que de diverses landing pages pour différents projets </p></li></ul>",
+      "summary": "<ul><li><p>Intégrer les designs de manière responsive en collaboration avec plusieurs membres de l'équipe, en tenant compte des retours de professeurs</p><ul><li><p>Mettre en place un système de thème via variables CSS suite au passage du projet en open source</p></li></ul></li><li><p>Mettre en place un nouveau design pour la boutique, en utilisant les connaissances acquises sur la plateforme Classe</p></li><li><p>Réaliser la nouvelle page d'accueil du site ainsi que de diverses landing pages pour différents projets </p></li></ul>",
       "url": "https://vittascience.com/"
     },
     {
@@ -52,7 +52,7 @@
       "position": "Stage d'observation (Support Local Informatique)",
       "location": "",
       "date": "2015-12-01 - 2015-12-02",
-      "summary": "- Découverte de la mise en place d’un environnement informatique pour une entreprise (Support au Poste Informatique)\n- Visite du Datacenter PSA situé à Achères\n- Usage fréquent de ​Microsoft Office"
+      "summary": "<ul><li><p>Découverte de la mise en place d’un environnement informatique pour une entreprise (Support au Poste Informatique)</p></li><li><p>Visite du Datacenter PSA situé à Achères</p></li><li><p>Usage fréquent de ​Microsoft Office</p></li></ul>"
     }
   ],
   "interests": ["Design / Graphisme (Autodidacte)", "Retrogaming", "MMORPGs"],
