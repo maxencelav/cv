@@ -16,7 +16,6 @@ body {
   width: 21cm;
   height: 29.7cm;
 
-  outline: 1px solid red;
   color: #333;
   background-color: #fff;
 
@@ -77,6 +76,10 @@ h2 {
   margin-block: 0;
 }
 
+.item .summary a {
+  color: var(--primary);
+}
+
 .item h3,
 .item .issuer,
 .item .title,
@@ -86,6 +89,14 @@ h2 {
   margin-inline: 0;
 
   grid-column-end: 2;
+}
+
+
+.item .title,
+.item .issuer,
+.item .position {
+  opacity: 0.8;
+  font-weight: bold;
 }
 
 .item .date {
@@ -115,6 +126,7 @@ h2 {
   display: block;
   border: 5px solid #fff;
   background-color: #fff;
+  margin: 0 auto;
 }
 
 #info h1 {

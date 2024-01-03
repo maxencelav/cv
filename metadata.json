@@ -5,20 +5,20 @@
       "issuer": "Josh W Comeau",
       "date": "",
       "summary": "En cours de suivi.",
-      "url": "https://www.joyofreact.com/"
+      "url": "https://joyofreact.com/"
     }
   ],
   "education": [
     {
       "institution": "Coding Factory by ESIEE-IT, Cergy",
       "title": "Analyste développeur d'applications informatiques",
-      "date": "2019-09-10 - 2021-09-06",
+      "date": "Septembre 2019 - Septembre 2021",
       "url": "https://codingfactory.fr/"
     },
     {
       "institution": "Lycée Charles de Gaulle, Poissy",
       "title": "Baccalauréat Scientifique",
-      "date": "2016-09-01 - 2019-06-24",
+      "date": "Septembre 2016 - Juin 2019",
       "summary": "Sciences de l'ingénieur, option Informatique et Sciences du numérique"
     }
   ],
@@ -28,7 +28,7 @@
       "position": "Développeur web",
       "location": "",
       "date": "Octobre 2021 - Aujourd'hui",
-      "summary": "<ul><li><p>Création d'une application pour un robot sous Android permettant de contrôler ce dernier avec du JavaScript</p></li><li><p>Refonte entière du site avec Bootstrap 5, avec la création d'un thème personnalisé</p></li><li><p>Assurer la maintenance et l'évolution du LMS pour plusieurs clients (Texas Instruments, AREN, </p></li><li><p>Refonte entière d'un site ASP.NET vers PHP en 6 mois (<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://maclasseti.fr\">MaClasseTI.fr</a>)</p></li></ul>",
+      "summary": "<ul><li><p>Création d'application pour robot sous Android permettant de contrôler ce dernier via JavaScript</p></li><li><p>Refonte entière du site Vittascience avec Bootstrap 5, avec la création d'un thème personnalisé</p></li><li><p>Maintenance et l'évolution du projet open-source <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://github.com/vittascience/OpenSTEAM-LMS/\">OpenSTEAM-LMS</a> pour plusieurs clients (Texas Instruments, AREN...)</p></li><li><p>Refonte entière d'un site ASP.NET vers PHP en 6 mois (<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://maclasseti.fr\">MaClasseTI.fr</a>)</p></li></ul>",
       "url": "https://vittascience.com"
     },
     {
@@ -36,7 +36,7 @@
       "position": "Alternance (Développeur web)",
       "location": "",
       "date": "Octobre 2020 - Septembre 2021",
-      "summary": "<ul><li><p>Intégrer les designs de manière responsive en collaboration avec plusieurs membres de l'équipe, en tenant compte des retours de professeurs</p><ul><li><p>Mettre en place un système de thème via variables CSS suite au passage du projet en open source</p></li></ul></li><li><p>Mettre en place un nouveau design pour la boutique, en utilisant les connaissances acquises sur la plateforme Classe</p></li><li><p>Réaliser la nouvelle page d'accueil du site ainsi que de diverses landing pages pour différents projets </p></li></ul>",
+      "summary": "<ul><li><p>Intégration de maquettes Adobe XD sur le projet open source OpenSTEAM-LMS et Vittascience</p><ul><li><p>Mettre en place un système de thème via variables CSS suite au passage du projet en open source</p></li></ul></li><li><p>Mettre en place un nouveau design pour la boutique, en utilisant les connaissances acquises sur la plateforme Classe</p></li><li><p>Réaliser la nouvelle page d'accueil du site ainsi que de diverses landing pages pour différents projets </p></li></ul>",
       "url": "https://vittascience.com/"
     },
     {
@@ -44,14 +44,14 @@
       "position": "Stage (Développeur web)",
       "location": "",
       "date": "Mars 2020 - Août 2020",
-      "summary": "<ul><li><p>Améliorer l'aspect accessibilité du site, en mettant en place un système de thèmes clair/sombre ainsi que le choix de différentes typographies destinées aux personnes dyslexiques/malvoyantes, tout en gardant une interface cohérente</p></li><li><p>Assister à la création d'un simulateur de carte Arduino & BBC micro:bit en implémentant des visuels aux modules existants pour ajouter de l'interactivité, puis en ajoutant de nouveaux modules</p></li><li><p>Intégrer des maquettes Adobe XD pour la réalisation d'une fonctionnalité Learning Management System </p></li><li><p>Créer de pages dédiées au contenu inclus dans des livrets d'exercices Hatier afin d'avoir une expérience simplifiée pour leurs utilisateurs</p></li></ul>",
+      "summary": "<ul><li><p>Amélioration de l'aspect accessibilité du site, via un système de thèmes clair/sombre ainsi que le choix de différentes typographies destinées aux personnes dyslexiques/malvoyantes, tout en gardant une interface cohérente</p></li><li><p>Implémentation de visuels et nouveaux modules pour un simulateur de carte Arduino & BBC micro:bit</p></li><li><p>Intégrer des maquettes Adobe XD pour la réalisation d'une fonctionnalité Learning Management System </p></li><li><p>Créer de pages dédiées au contenu inclus dans des livrets d'exercices Hatier afin d'avoir une expérience simplifiée pour leurs utilisateurs</p></li></ul>",
       "url": "https://vittascience.com/"
     },
     {
       "company": "Groupe PSA",
       "position": "Stage d'observation (Support Local Informatique)",
       "location": "",
-      "date": "2015-12-01 - 2015-12-02",
+      "date": "Décembre 2015",
       "summary": "<ul><li><p>Découverte de la mise en place d’un environnement informatique pour une entreprise (Support au Poste Informatique)</p></li><li><p>Visite du Datacenter PSA situé à Achères</p></li><li><p>Usage fréquent de ​Microsoft Office</p></li></ul>"
     }
   ],
@@ -67,6 +67,12 @@
     }
   ],
   "projects": [
+    {
+      "name": "Ce CV !",
+      "date": "Janvier 2024",
+      "summary": "CV entièrement réalisé en HTML, CSS et JavaScript.",
+      "url": "https://github.com/maxencelav/cv"
+    },
     {
       "name": "Portfolio",
       "date": "Juin 2023 - Aujourd'hui",

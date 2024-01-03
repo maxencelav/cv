@@ -90,7 +90,8 @@ window.addEventListener('DOMContentLoaded', () => {
             if (item.url) {
                 let itemUrl = document.createElement("a");
                 itemUrl.classList.add("url");
-                itemUrl.innerText = item.url;
+                // for the inner text, use the url without the protocol and trailing slashes
+                itemUrl.innerText = item.url.replace(/(^\w+:|^)\/\//, '').replace(/\/$/, "");
                 itemUrl.href = item.url;
                 itemUrl.target = "_blank";
                 itemContainer.appendChild(itemUrl);
