@@ -36,7 +36,7 @@
       "position": "Alternance (Développeur web)",
       "location": "",
       "date": "Octobre 2020 - Septembre 2021",
-      "summary": "<ul><li><p>Intégration de maquettes Adobe XD sur le projet open source OpenSTEAM-LMS et Vittascience</p><ul><li><p>Mettre en place un système de thème via variables CSS suite au passage du projet en open source</p></li></ul></li><li><p>Mettre en place un nouveau design pour la boutique, en utilisant les connaissances acquises sur la plateforme Classe</p></li><li><p>Réaliser la nouvelle page d'accueil du site ainsi que de diverses landing pages pour différents projets </p></li></ul>",
+      "summary": "<ul><li><p>Intégration de maquettes Adobe XD sur le projet open source <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://github.com/vittascience/OpenSTEAM-LMS/\">OpenSTEAM-LMS</a> et Vittascience</p><ul><li><p>Mise en place d'un système de thème via variables CSS suite au passage du LMS en open source</p></li></ul></li><li><p>Mise en place d'un nouveau design pour la boutique, en utilisant les connaissances acquises sur la plateforme Classe</p></li><li><p>Réalisation de la nouvelle page d'accueil du site avec de diverses landing pages pour différents projets</p></li></ul>",
       "url": "https://vittascience.com/"
     },
     {
@@ -44,7 +44,7 @@
       "position": "Stage (Développeur web)",
       "location": "",
       "date": "Mars 2020 - Août 2020",
-      "summary": "<ul><li><p>Amélioration de l'aspect accessibilité du site, via un système de thèmes clair/sombre ainsi que le choix de différentes typographies destinées aux personnes dyslexiques/malvoyantes, tout en gardant une interface cohérente</p></li><li><p>Implémentation de visuels et nouveaux modules pour un simulateur de carte Arduino & BBC micro:bit</p></li><li><p>Intégrer des maquettes Adobe XD pour la réalisation d'une fonctionnalité Learning Management System </p></li><li><p>Créer de pages dédiées au contenu inclus dans des livrets d'exercices Hatier afin d'avoir une expérience simplifiée pour leurs utilisateurs</p></li></ul>",
+      "summary": "<ul><li><p>Amélioration de l'aspect accessibilité du site, via un système de thèmes clair/sombre ainsi que le choix de différentes typographies destinées aux personnes dyslexiques/malvoyantes, tout en gardant une interface cohérente</p></li><li><p>Implémentation de visuels et nouveaux modules pour un simulateur de carte Arduino & BBC micro:bit</p></li><li><p>Intégration de maquettes Adobe XD pour la réalisation d'une fonctionnalité Learning Management System </p></li><li><p>Création de 6 pages dédiées au contenu inclus dans des livrets d'exercices Hatier afin d'avoir une expérience simplifiée pour leurs utilisateurs</p></li></ul>",
       "url": "https://vittascience.com/"
     },
     {
