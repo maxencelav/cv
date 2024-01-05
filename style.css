@@ -67,6 +67,7 @@ h2 {
   margin-block: 0;
 }
 
+#head a,
 .item .summary a {
   color: var(--primary);
 }
@@ -76,10 +77,6 @@ h2 {
   text-decoration: none;
   color: black;
   margin-top: 0.25em;
-}
-.url::before {
-  content: "🔗 ";
-  color: var(--primary);
 }
 
 .item h3,
