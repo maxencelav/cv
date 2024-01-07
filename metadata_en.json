@@ -1,0 +1,43 @@
+{
+  "certifications": [
+    {
+      "name": "Joy of React",
+      "issuer": "Josh W Comeau",
+      "date": "",
+      "summary": "Currently following.",
+      "url": "https://joyofreact.com/"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Coding Factory by ESIEE-IT, Cergy",
+      "title": "Computer Applications Developer Analyst",
+      "date": "September 2019 - September 2021",
+      "url": "https://codingfactory.fr/"
+    },
+    {
+      "institution": "Lycée Charles de Gaulle, Poissy",
+      "title": "Scientific Baccalaureate",
+      "date": "September 2016 - June 2019",
+      "summary": "Engineering Sciences, option Computer and Digital Sciences"
+    }
+  ],
+  "experiences": [
+    {
+      "company": "Vittascience",
+      "position": "Web Developer",
+      "location": "",
+      "date": "October 2021 - Present",
+      "summary": "<ul><li><p>Creation of an application for Buddy robot (emotive robot) on Android allowing to control it via JavaScript</p></li><li><p>Complete overhaul of the Vittascience site with Bootstrap 5 for the internationalization of the site via the implementation of right-to-left reading direction, and with the creation of a custom theme</p></li><li><p>Maintenance and evolution of the open-source project <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://github.com/vittascience/OpenSTEAM-LMS/\">OpenSTEAM-LMS</a> for several clients (Texas Instruments, AREN...)</p></li><li><p>Complete overhaul of an ASP.NET site to PHP in 6 months (<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://maclasseti.fr\">MaClasseTI.fr</a>)</p></li><li>Mentoring of an apprentice (Bac+2) over 1 year</li></ul>",
+      "url": "https://vittascience.com"
+    },
+    {
+      "company": "Vittascience",
+      "position": "Internship (Web Developer)",
+      "location": "",
+      "date": "October 2020 - September 2021",
+      "summary": "<ul><li><p>Integration of Adobe XD mockups on the open source project <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://github.com/vittascience/OpenSTEAM-LMS/\">OpenSTEAM-LMS</a> and Vittascience</p><ul><li><p>Setting up a theme system via CSS variables following the LMS's transition to open source</p></li></ul></li><li><p>Setting up a new design for the store, using UX/UI knowledge acquired on the Classe platform</p></li><li><p>Realization of the new homepage of the site with various landing pages for different projects</p></li></ul>",
+      "url": "https://vittascience.com/"
+    }
+  ]
+}

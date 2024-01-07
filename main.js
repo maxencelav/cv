@@ -1,14 +1,15 @@
 import './style.css'
-import data from './metadata.json';
+import dataFR from './metadata_fr.json';
+import dataEN from './metadata_en.json';
 
 window.addEventListener('DOMContentLoaded', () => {
     // list all the entries in the data json
-    const keys = Object.keys(data);
+    const keys = Object.keys(dataFR);
     console.log(keys);
 
     keys.forEach(key => {
         let catContainer = document.querySelector("#" + key);
-        let cat = data[key];
+        let cat = dataFR[key];
 
         console.log(key, typeof cat)
         cat.forEach(item => {

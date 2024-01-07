@@ -9,7 +9,36 @@
 
 /* GLOBAL STYLES */
 
-body {
+body { padding: 0; margin: 0; }
+
+@media screen {
+  html {
+    background-color: black;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 2em;
+
+    background-color: rgba(var(--primary-rgb), 0.1);
+    gap: 2em;
+  }
+
+  .page {
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+    border-radius: 1em;
+    overflow: hidden;
+
+  }
+}
+
+
+
+.page {
   font-family: 'Atkinson Hyperlegible', sans-serif;
   font-size: 12px;
   line-height: 1.5;
@@ -28,6 +57,8 @@ body {
 #content,
 #sidebar {
   height: 100%;
+  max-height: 100%;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
 }
@@ -220,14 +251,14 @@ h2 {
   flex-direction: row;
 }
 
-#other #languages > .item {
+#other #languages>.item {
   flex-grow: 1;
 }
 
-#other #interests > .item {
+#other #interests>.item {
   display: inline;
 }
 
-#other #interests > .item:not(:last-child)::after {
+#other #interests>.item:not(:last-child)::after {
   content: ", ";
 }
