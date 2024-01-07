@@ -28,16 +28,61 @@
       "position": "Web Developer",
       "location": "",
       "date": "October 2021 - Present",
-      "summary": "<ul><li><p>Creation of an application for Buddy robot (emotive robot) on Android allowing to control it via JavaScript</p></li><li><p>Complete overhaul of the Vittascience site with Bootstrap 5 for the internationalization of the site via the implementation of right-to-left reading direction, and with the creation of a custom theme</p></li><li><p>Maintenance and evolution of the open-source project <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://github.com/vittascience/OpenSTEAM-LMS/\">OpenSTEAM-LMS</a> for several clients (Texas Instruments, AREN...)</p></li><li><p>Complete overhaul of an ASP.NET site to PHP in 6 months (<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://maclasseti.fr\">MaClasseTI.fr</a>)</p></li><li>Mentoring of an apprentice (Bac+2) over 1 year</li></ul>",
+      "summary": "<ul><li><p>Creation of an Android application for Buddy The Robot (emotive robot) allowing to control it via JavaScript</p></li><li><p>Complete overhaul of the Vittascience site with Bootstrap 5 for the internationalization of the site via the implementation of right-to-left reading direction, and with the creation of a custom theme</p></li><li><p>Maintenance and evolution of the open-source project <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://github.com/vittascience/OpenSTEAM-LMS/\">OpenSTEAM-LMS</a> for several clients (Texas Instruments, AREN Éducation...)</p></li><li><p>Complete overhaul of an ASP.NET site to PHP in 6 months (<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://maclasseti.fr\">MaClasseTI.fr</a>)</p></li><li>Mentoring of an apprentice (Bac+2) over 1 year</li></ul>",
       "url": "https://vittascience.com"
     },
     {
       "company": "Vittascience",
-      "position": "Internship (Web Developer)",
+      "position": "Apprenticeship (Web Developer)",
       "location": "",
       "date": "October 2020 - September 2021",
-      "summary": "<ul><li><p>Integration of Adobe XD mockups on the open source project <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://github.com/vittascience/OpenSTEAM-LMS/\">OpenSTEAM-LMS</a> and Vittascience</p><ul><li><p>Setting up a theme system via CSS variables following the LMS's transition to open source</p></li></ul></li><li><p>Setting up a new design for the store, using UX/UI knowledge acquired on the Classe platform</p></li><li><p>Realization of the new homepage of the site with various landing pages for different projects</p></li></ul>",
+      "summary": "<ul><li><p>Integration of Adobe XD mockups on the open source project <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://github.com/vittascience/OpenSTEAM-LMS/\">OpenSTEAM-LMS</a> and the Vittascience website</p><ul><li><p>Setting up a theme system via CSS variables following the LMS's transition to open source</p></li></ul></li><li><p>Setting up a new design for the store, using UX/UI knowledge acquired on the Classroom platform</p></li><li><p>Integration of the new homepage of the site alongside various landing pages for different projects</p></li></ul>",
       "url": "https://vittascience.com/"
+    },
+  {
+      "company": "Vittascience",
+      "position": "Internship (Web Developer)",
+      "location": "",
+      "date": "March 2020 - August 2020",
+      "summary": "<ul><li><p>Improved the accessibility of the site by adding a light/dark theme and allowing the user to select different fonts for dyslexic/visually impaired users, while maintaining a consistent interface</p></li><li><p>Implemented dynamic visuals and new modules for an Arduino & BBC micro:bit simulator</p></li><li><p>Integrated Adobe XD mockups to create a Learning Management System feature</p></li><li><p>Created 6 pages dedicated to the content included in Hatier exercise booklets to simplify the experience for their users</p></li></ul>",
+      "url": "https://vittascience.com/"
+    },
+    {
+      "company": "Stellantis (formerly PSA Groupe)",
+      "position": "IT Support Internship",
+      "location": "",
+      "date": "December 2015",
+      "summary": "Discovered how to set up an IT environment for a company (IT Support role), visited their datacenter in Achères, and used Microsoft Office frequently"
+    }
+  ],
+  "interests": ["Design / Graphic Design (Self-taught)", "Retrogaming", "MMORPGs"],
+  "languages": [
+    {
+      "name": "French",
+      "description": "Native"
+    },
+    {
+      "name": "English",
+      "description": "Fluent"
+    }
+  ],
+  "projects": [
+    {
+      "name": "This resume!",
+      "date": "January 2024",
+      "summary": "Resume entirely created using HTML, CSS, and JavaScript",
+      "url": "https://github.com/maxencelav/cv"
+    },
+    {
+      "name": "Portfolio",
+      "date": "June 2023 - Present",
+      "summary": "Website created with Astro, Tailwind CSS, and React to list my various projects and professional experiences",
+      "url": "https://maxencelav.dev"
+    },
+    {
+      "name": "TECHNO 293 Bic European Championship in Larmor-Plage",
+      "date": "July 2017",
+      "summary": "Assisted with the setup of the Wi-Fi hotspot login page (HTML + CSS) for the participants of the race"
     }
   ]
 }
