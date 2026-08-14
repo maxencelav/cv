@@ -1,0 +1,65 @@
+{
+  "experiences": {
+    "w-unified": {
+      "show": true,
+      "highlights": {
+        "w-h1": true,
+        "w-h2": true,
+        "w-h3": true,
+        "w-h4": true,
+        "w-h5": true
+      }
+    },
+    "vittascience-dev": {
+      "show": true,
+      "highlights": {
+        "vsc-h1": true,
+        "vsc-h2": true,
+        "vsc-h3": true,
+        "vsc-h4": false,
+        "vsc-h5": true
+      }
+    },
+    "vittascience-apprenticeship": {
+      "show": true,
+      "highlights": {
+        "vsca-h1": true,
+        "vsca-h2": true,
+        "vsca-h3": true
+      }
+    },
+    "vittascience-internship": {
+      "show": true,
+      "highlights": {
+        "vsci-h1": true,
+        "vsci-h2": false,
+        "vsci-h3": true,
+        "vsci-h4": false
+      }
+    },
+    "stellantis-internship": {
+      "show": false,
+      "highlights": {
+        "psa-h1": true
+      }
+    }
+  },
+  "education": {
+    "coding-factory": { "show": true },
+    "bac-scientifique": { "show": true }
+  },
+  "projects": {
+    "portfolio": { "show": true },
+    "cv": { "show": true },
+    "techno293": { "show": true }
+  },
+  "languages": {
+    "french": { "show": true },
+    "english": { "show": true }
+  },
+  "interests": {
+    "design": { "show": true },
+    "retrogaming": { "show": true },
+    "mmorpg": { "show": true }
+  }
+}

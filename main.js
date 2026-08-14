@@ -1,6 +1,7 @@
 import './style.css'
 import dataFR from './metadata_fr.json';
 import dataEN from './metadata_en.json';
+import display from './metadata_display.json';
 
 import locationSvg from '@fluentui/svg-icons/icons/location_20_regular.svg?raw';
 import mailSvg from '@fluentui/svg-icons/icons/mail_20_regular.svg?raw';
@@ -22,6 +23,16 @@ function icon(name) {
 
 const stripProtocol = (url) => url.replace(/(^\w+:|^)\/\//, '').replace(/\/$/, '');
 const lastSegment = (url) => stripProtocol(url).split('/').filter(Boolean).pop();
+
+/** Returns true if the item with the given id should be shown (defaults to true if not configured). */
+function isShown(section, id) {
+  return display[section]?.[id]?.show !== false;
+}
+
+/** Returns true if a highlight within a job should be shown (defaults to true if not configured). */
+function isHighlightShown(jobId, highlightId) {
+  return display.experiences?.[jobId]?.highlights?.[highlightId] !== false;
+}
 
 function makeContactItem(inner) {
   const li = document.createElement('li');
@@ -48,7 +59,7 @@ function renderBasics(root, basics, profile) {
 function renderExperiences(container, experiences) {
   container.replaceChildren();
   experiences
-    .filter(exp => !exp.visualHidden)
+    .filter(exp => isShown('experiences', exp.id))
     .forEach(exp => {
       const item = document.createElement('div');
       item.classList.add('item');
@@ -72,13 +83,13 @@ function renderExperiences(container, experiences) {
         item.appendChild(date);
       }
 
-      const highlights = exp.visualLimit ? exp.highlights.slice(0, exp.visualLimit) : exp.highlights;
+      const visibleHighlights = exp.highlights.filter(h => isHighlightShown(exp.id, h.id));
       const summary = document.createElement('div');
       summary.classList.add('summary');
       const ul = document.createElement('ul');
-      highlights.forEach(h => {
+      visibleHighlights.forEach(h => {
         const li = document.createElement('li');
-        li.innerHTML = h;
+        li.innerHTML = h.text;
         ul.appendChild(li);
       });
       summary.appendChild(ul);
@@ -114,39 +125,50 @@ function appendUrls(container, url, wrap = false) {
   container.appendChild(links);
 }
 
-// Generic renderer for education / projects / languages
-function renderItems(container, items) {
+// Generic renderer for education / projects / languages / interests
+function renderItems(container, items, section) {
   container.replaceChildren();
-  items.forEach(item => {
-    if (typeof item === 'string') {
-      const span = document.createElement('span');
-      span.classList.add('item');
-      span.innerText = item;
-      container.appendChild(span);
-      return;
-    }
+  items
+    .filter(item => typeof item === 'string' || !item.id || isShown(section, item.id))
+    .forEach(item => {
+      if (typeof item === 'string') {
+        const span = document.createElement('span');
+        span.classList.add('item');
+        span.innerText = item;
+        container.appendChild(span);
+        return;
+      }
 
-    const el = document.createElement('div');
-    el.classList.add('item');
+      // Interests use {id, text} shape
+      if (item.text && !item.name && !item.institution) {
+        const span = document.createElement('span');
+        span.classList.add('item');
+        span.innerText = item.text;
+        container.appendChild(span);
+        return;
+      }
 
-    const addLine = (tag, cls, text, html = false) => {
-      const node = document.createElement(tag);
-      node.classList.add(cls);
-      if (html) node.innerHTML = text; else node.innerText = text;
-      el.appendChild(node);
-    };
+      const el = document.createElement('div');
+      el.classList.add('item');
 
-    if (item.name) addLine('h3', 'name', item.name);
-    if (item.institution) addLine('h3', 'institution', item.institution);
-    if (item.issuer) addLine('p', 'issuer', item.issuer);
-    if (item.title) addLine('p', 'title', item.title);
-    if (item.description) addLine('p', 'description', item.description);
-    if (item.date) addLine('p', 'date', item.date);
-    if (item.summary) addLine('p', 'summary', item.summary, true);
-    appendUrls(el, item.url);
+      const addLine = (tag, cls, text, html = false) => {
+        const node = document.createElement(tag);
+        node.classList.add(cls);
+        if (html) node.innerHTML = text; else node.innerText = text;
+        el.appendChild(node);
+      };
 
-    container.appendChild(el);
-  });
+      if (item.name) addLine('h3', 'name', item.name);
+      if (item.institution) addLine('h3', 'institution', item.institution);
+      if (item.issuer) addLine('p', 'issuer', item.issuer);
+      if (item.title) addLine('p', 'title', item.title);
+      if (item.description) addLine('p', 'description', item.description);
+      if (item.date) addLine('p', 'date', item.date);
+      if (item.summary) addLine('p', 'summary', item.summary, true);
+      appendUrls(el, item.url);
+
+      container.appendChild(el);
+    });
 }
 
 function renderPage(lang, data) {
@@ -155,13 +177,14 @@ function renderPage(lang, data) {
 
   renderBasics(root, data.basics, data.profile);
   renderExperiences(root.querySelector('.experiences'), data.experiences);
-  renderItems(root.querySelector('.education'), data.education);
-  renderItems(root.querySelector('.projects'), data.projects);
-  renderItems(root.querySelector('.languages'), data.languages);
-  renderItems(root.querySelector('.interests'), data.interests);
+  renderItems(root.querySelector('.education'), data.education, 'education');
+  renderItems(root.querySelector('.projects'), data.projects, 'projects');
+  renderItems(root.querySelector('.languages'), data.languages, 'languages');
+  renderItems(root.querySelector('.interests'), data.interests, 'interests');
 }
 
 window.addEventListener('DOMContentLoaded', () => {
   renderPage('fr', dataFR);
   renderPage('en', dataEN);
 });
+
