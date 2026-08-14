@@ -1,13 +1,4 @@
 {
-  "certifications": [
-    {
-      "name": "Joy of React",
-      "issuer": "Josh W Comeau",
-      "date": "",
-      "summary": "Currently following.",
-      "url": "https://joyofreact.com/"
-    }
-  ],
   "education": [
     {
       "institution": "Coding Factory by ESIEE-IT, Cergy",

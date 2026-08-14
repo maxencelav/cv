@@ -1,11 +1,72 @@
 {
-  "certifications": [
+  "basics": {
+    "name": "Maxence Lavenu",
+    "role": "Développeur front-end",
+    "location": "Poissy, France",
+    "email": "maxencelav@pm.me",
+    "phone": "+33 7 86 74 66 05",
+    "website": "https://maxencelav.dev",
+    "github": "https://github.com/maxencelav",
+    "linkedin": "https://www.linkedin.com/in/maxence-lavenu/"
+  },
+  "profile": "Orienté vers les technologies web, je manipule régulièrement du <b>HTML</b>, <b>PHP</b>, <b>JavaScript</b>, <b>CSS</b>, avec l'apprentissage de <b>React</b> (<b>Next.js</b>) sur mon temps libre via des cours et <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://github.com/maxencelav?tab=repositories&q=&type=&language=javascript\">quelques projets</a>. J'ai aussi eu l'occasion d'utiliser <b>Java</b>, <b>Android Studio</b> ainsi que <b>SQL</b> dans différents projets professionnels ou scolaires.<br>Le partage de connaissances est un sujet qui me tient particulièrement à cœur — je suis toujours prêt à aider quelqu'un qui souhaite acquérir de nouvelles compétences.",
+  "experiences": [
     {
-      "name": "Joy of React",
-      "issuer": "Josh W Comeau",
-      "date": "",
-      "summary": "En cours de suivi.",
-      "url": "https://joyofreact.com/"
+      "company": "W Unified Group",
+      "position": "Développeur front-end",
+      "date": "Mars 2024 - Aujourd'hui",
+      "url": ["https://wshop.com", "https://unify-retail.com"],
+      "highlights": [
+        "Développement front-end sur 20 sites e-commerce (PHP, JS natif, SCSS) et sur le back-office commun, basé sur un template Bootstrap (macros Twig) : optimisations de performance, corrections et évolutions fonctionnelles",
+        "Contribution au back-office et à l'application web POS de la solution omnicanale Unify (OMS)",
+        "Conception et développement (Java, Android natif) d'un bridge connectant une imprimante au site web POS, déployé sur ~400 bornes en magasin",
+        "Réalisation de l'application d'intégration Shopify ↔ Unify : checkout UI, storefront, admin UI",
+        "Création d'une librairie JavaScript réutilisable exposant des widgets à destination des vendeurs en magasin (détail et retour de commande, stock global et stock magasin)"
+      ]
+    },
+    {
+      "company": "Vittascience",
+      "position": "Développeur web",
+      "date": "Octobre 2021 - Mars 2024",
+      "url": "https://vittascience.com",
+      "highlights": [
+        "Création d'une application Android pour le robot Buddy (robot émotif), contrôlable via JavaScript",
+        "Refonte entière du site Vittascience (Bootstrap 5) avec internationalisation (sens de lecture droite-à-gauche) et thème personnalisé",
+        "Maintenance et évolution du projet open-source <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://github.com/vittascience/OpenSTEAM-LMS/\">OpenSTEAM-LMS</a> pour plusieurs clients (Texas Instruments, AREN Éducation...)",
+        "Refonte entière d'un site ASP.NET vers PHP en 6 mois (<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://maclasseti.fr\">MaClasseTI.fr</a>)",
+        "Accompagnement d'une apprentie (Bac+2) sur 1 an"
+      ]
+    },
+    {
+      "company": "Vittascience",
+      "position": "Alternance (Développeur web)",
+      "date": "Octobre 2020 - Septembre 2021",
+      "url": "https://vittascience.com",
+      "highlights": [
+        "Intégration de maquettes Adobe XD sur <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://github.com/vittascience/OpenSTEAM-LMS/\">OpenSTEAM-LMS</a> et Vittascience, avec mise en place d'un système de thème via variables CSS",
+        "Implémentation du nouveau design de la boutique, en mobilisant les compétences UX/UI acquises sur la plateforme Classe",
+        "Réalisation de la nouvelle page d'accueil du site ainsi que plusieurs landing pages"
+      ]
+    },
+    {
+      "company": "Vittascience",
+      "position": "Stage (Développeur web)",
+      "date": "Mars 2020 - Août 2020",
+      "url": "https://vittascience.com",
+      "highlights": [
+        "Amélioration de l'accessibilité du site (thèmes clair/sombre, typographies pour personnes dyslexiques/malvoyantes)",
+        "Intégration de maquettes Adobe XD pour la réalisation d'une fonctionnalité Learning Management System",
+        "Implémentation de visuels et de modules pour un simulateur Arduino & BBC micro:bit",
+        "Création de 6 pages dédiées au contenu des livrets d'exercices Hatier"
+      ]
+    },
+    {
+      "company": "Stellantis (anciennement Groupe PSA)",
+      "position": "Stage d'observation (Support Local Informatique)",
+      "date": "Décembre 2015",
+      "highlights": [
+        "Découverte de la mise en place d'un environnement informatique en entreprise (Support au Poste Informatique), visite du Datacenter PSA à Achères, usage fréquent de Microsoft Office"
+      ]
     }
   ],
   "education": [
@@ -22,57 +83,7 @@
       "summary": "Sciences de l'ingénieur, option Informatique et Sciences du numérique"
     }
   ],
-  "experiences": [
-    {
-      "company": "Vittascience",
-      "position": "Développeur web",
-      "location": "",
-      "date": "Octobre 2021 - Aujourd'hui",
-      "summary": "<ul><li><p>Création d'application pour robot Buddy (robot émotif) sous Android permettant de contrôler ce dernier via JavaScript</p></li><li><p>Refonte entière du site Vittascience avec Bootstrap 5 pour l'internationalisation du site via l'implémentation du sens de lecture de droite à gauche, et avec la création d'un thème personnalisé</p></li><li><p>Maintenance et l'évolution du projet open-source <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://github.com/vittascience/OpenSTEAM-LMS/\">OpenSTEAM-LMS</a> pour plusieurs clients (Texas Instruments, AREN Éducation...)</p></li><li><p>Refonte entière d'un site ASP.NET vers PHP en 6 mois (<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://maclasseti.fr\">MaClasseTI.fr</a>)</p></li><li>Accompagnement d'une apprentie (Bac+2) sur 1 an</li></ul>",
-      "url": "https://vittascience.com"
-    },
-    {
-      "company": "Vittascience",
-      "position": "Alternance (Développeur web)",
-      "location": "",
-      "date": "Octobre 2020 - Septembre 2021",
-      "summary": "<ul><li><p>Intégration de maquettes Adobe XD sur le projet open source <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://github.com/vittascience/OpenSTEAM-LMS/\">OpenSTEAM-LMS</a> et Vittascience</p><ul><li><p>Mise en place d'un système de thème via variables CSS suite au passage du LMS en open source</p></li></ul></li><li><p>Mise en place d'un nouveau design pour la boutique, en utilisant les connaissances en UX/UI acquises sur la plateforme Classe</p></li><li><p>Réalisation de la nouvelle page d'accueil du site avec de diverses landing pages pour différents projets</p></li></ul>",
-      "url": "https://vittascience.com/"
-    },
-    {
-      "company": "Vittascience",
-      "position": "Stage (Développeur web)",
-      "location": "",
-      "date": "Mars 2020 - Août 2020",
-      "summary": "<ul><li><p>Amélioration de l'aspect accessibilité du site, via un système de thèmes clair/sombre ainsi que le choix de différentes typographies destinées aux personnes dyslexiques/malvoyantes, tout en gardant une interface cohérente</p></li><li><p>Implémentation de visuels et nouveaux modules pour un simulateur de carte Arduino & BBC micro:bit</p></li><li><p>Intégration de maquettes Adobe XD pour la réalisation d'une fonctionnalité Learning Management System </p></li><li><p>Création de 6 pages dédiées au contenu inclus dans des livrets d'exercices Hatier afin d'avoir une expérience simplifiée pour leurs utilisateurs</p></li></ul>",
-      "url": "https://vittascience.com/"
-    },
-    {
-      "company": "Stellantis (anciennement Groupe PSA)",
-      "position": "Stage d'observation (Support Local Informatique)",
-      "location": "",
-      "date": "Décembre 2015",
-      "summary": "Découverte de la mise en place d’un environnement informatique pour une entreprise (Support au Poste Informatique), visite du Datacenter PSA situé à Achères, usage fréquent de ​Microsoft Office"
-    }
-  ],
-  "interests": ["Design / Graphisme (Autodidacte)", "Retrogaming", "MMORPGs"],
-  "languages": [
-    {
-      "name": "Français",
-      "description": "Natif"
-    },
-    {
-      "name": "Anglais",
-      "description": "Courant"
-    }
-  ],
   "projects": [
-    {
-      "name": "Ce CV !",
-      "date": "Janvier 2024",
-      "summary": "CV entièrement réalisé en HTML, CSS et JavaScript.",
-      "url": "https://github.com/maxencelav/cv"
-    },
     {
       "name": "Portfolio",
       "date": "Juin 2023 - Aujourd'hui",
@@ -80,9 +91,20 @@
       "url": "https://maxencelav.dev"
     },
     {
-      "name": "TECHNO 293 Bic Championnat d’Europe à Larmor-Plage",
+      "name": "Ce CV !",
+      "date": "Janvier 2024 - Aujourd'hui",
+      "summary": "CV entièrement réalisé en HTML, CSS et JavaScript.",
+      "url": "https://github.com/maxencelav/cv"
+    },
+    {
+      "name": "TECHNO 293 Bic Championnat d'Europe à Larmor-Plage",
       "date": "Juillet 2017",
       "summary": "Aide à la mise en place de la page de connexion (HTML + CSS) pour la borne Wi-Fi destinée aux participants de la course."
     }
-  ]
+  ],
+  "languages": [
+    { "name": "Français", "description": "Natif" },
+    { "name": "Anglais", "description": "Courant" }
+  ],
+  "interests": ["Design / Graphisme (Autodidacte)", "Retrogaming", "MMORPGs"]
 }
