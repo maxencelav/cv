@@ -9,7 +9,7 @@
     "github": "https://github.com/maxencelav",
     "linkedin": "https://www.linkedin.com/in/maxence-lavenu/"
   },
-  "profile": "Orienté vers les technologies et standards modernes du web, je manipule régulièrement du <b>HTML</b>, <b>PHP</b>, <b>JavaScript</b>, <b>CSS</b>, <b>Liquid</b> (Shopify), <b>WebComponents</b>, avec l'apprentissage de <b>React</b> (<b>Next.js</b>) sur mon temps libre via des cours. J'ai aussi eu l'occasion d'utiliser <b>Java</b>, <b>Android Studio</b> ainsi que <b>SQL</b> dans différents projets professionnels ou scolaires.",
+  "profile": "Orienté vers les technologies et standards modernes du web, je manipule régulièrement du <b>HTML</b>, <b>PHP</b>, <b>JavaScript</b>, <b>CSS</b>, <b>Liquid</b> (Shopify), <b>WebComponents</b>, avec l'apprentissage de <b>React</b> (<b>Next.js</b>/TanStack Start) sur mon temps libre via des cours. J'ai aussi eu l'occasion d'utiliser <b>Java</b>, <b>Android Studio</b> ainsi que <b>SQL</b> dans différents projets professionnels ou scolaires.",
   "experiences": [
     {
       "id": "w-unified",
@@ -22,7 +22,8 @@
         { "id": "w-h2", "text": "Contribution au back-office et à l'application web de la solution UniFy (OMS & Store App)" },
         { "id": "w-h3", "text": "Conception et développement (Java, Android natif) d'un bridge connectant une imprimante à l'application de vente en magasin, déployé sur ~400 bornes" },
         { "id": "w-h4", "text": "Réalisation de l'application d'intégration Shopify ↔ UniFy : checkout UI, storefront, admin UI" },
-        { "id": "w-h5", "text": "Création d'une librairie de WebComponents (widgets commande, retour, stock) intégrable par les enseignes clientes de UniFy" }
+        { "id": "w-h5", "text": "Création d'une librairie de WebComponents (widgets commande, retour, stock) intégrable par les enseignes clientes de UniFy" },
+        { "id": "w-h6", "text": "Développement agentique à l'aide de GitHub Copilot et Claude Code" }
       ]
     },
     {
@@ -36,7 +37,8 @@
         { "id": "vsc-h2", "text": "Refonte entière du site Vittascience (Bootstrap 5) avec internationalisation (sens de lecture droite-à-gauche) et thème personnalisé" },
         { "id": "vsc-h3", "text": "Maintenance et évolution du projet open-source <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://github.com/vittascience/OpenSTEAM-LMS/\">OpenSTEAM-LMS</a> pour plusieurs clients (Texas Instruments, AREN Éducation...)" },
         { "id": "vsc-h4", "text": "Refonte entière d'un site ASP.NET vers PHP en 6 mois (<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://maclasseti.fr\">MaClasseTI.fr</a>)" },
-        { "id": "vsc-h5", "text": "Accompagnement d'une apprentie (Bac+2) sur 1 an" }
+        { "id": "vsc-h5", "text": "Utilisation de GitHub Copilot pour améliorer la qualité et la rapidité du code produit" },
+        { "id": "vsc-h6", "text": "Accompagnement d'une apprentie (Bac+2) sur 1 an" }
       ]
     },
     {

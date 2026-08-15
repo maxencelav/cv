@@ -7,7 +7,8 @@
         "w-h2": true,
         "w-h3": true,
         "w-h4": true,
-        "w-h5": true
+        "w-h5": true,
+        "w-h6": true
       }
     },
     "vittascience-dev": {
@@ -17,7 +18,8 @@
         "vsc-h2": true,
         "vsc-h3": true,
         "vsc-h4": false,
-        "vsc-h5": true
+        "vsc-h5": true,
+        "vsc-h6": true
       }
     },
     "vittascience-apprenticeship": {

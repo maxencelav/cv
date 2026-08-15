@@ -9,7 +9,7 @@
     "github": "https://github.com/maxencelav",
     "linkedin": "https://www.linkedin.com/in/maxence-lavenu/"
   },
-  "profile": "Focused on modern web technologies and standards, I work regularly with <b>HTML</b>, <b>PHP</b>, <b>JavaScript</b>, <b>CSS</b>, <b>Liquid</b> (Shopify), and <b>WebComponents</b>, while learning <b>React</b> (<b>Next.js</b>) in my spare time through courses. I have also had the opportunity to use <b>Java</b>, <b>Android Studio</b>, and <b>SQL</b> across various professional and academic projects.",
+  "profile": "Focused on modern web technologies and standards, I work regularly with <b>HTML</b>, <b>PHP</b>, <b>JavaScript</b>, <b>CSS</b>, <b>Liquid</b> (Shopify), and <b>WebComponents</b>, while learning <b>React</b> (<b>Next.js</b>/TanStack Start) in my spare time through courses. I have also had the opportunity to use <b>Java</b>, <b>Android Studio</b>, and <b>SQL</b> across various professional and academic projects.",
   "experiences": [
     {
       "id": "w-unified",
@@ -22,7 +22,8 @@
         { "id": "w-h2", "text": "Contribution to the back-office and web application of UniFy (OMS & Store App)" },
         { "id": "w-h3", "text": "Design and development (Java, native Android) of a bridge connecting a printer to the in-store sales application, deployed on ~400 terminals" },
         { "id": "w-h4", "text": "Built the Shopify ↔ UniFy integration app: checkout UI, storefront, and admin UI" },
-        { "id": "w-h5", "text": "Created a WebComponents library (order, return, and stock widgets) embeddable by UniFy's retail clients" }
+        { "id": "w-h5", "text": "Created a WebComponents library (order, return, and stock widgets) embeddable by UniFy's retail clients" },
+        { "id": "w-h6", "text": "Agentic development using GitHub Copilot and Claude Code" }
       ]
     },
     {
@@ -36,7 +37,8 @@
         { "id": "vsc-h2", "text": "Complete overhaul of the Vittascience website (Bootstrap 5) with internationalisation (right-to-left reading direction) and a custom theme" },
         { "id": "vsc-h3", "text": "Maintenance and development of the open-source project <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://github.com/vittascience/OpenSTEAM-LMS/\">OpenSTEAM-LMS</a> for several clients (Texas Instruments, AREN Éducation...)" },
         { "id": "vsc-h4", "text": "Full rewrite of an ASP.NET site to PHP in 6 months (<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://maclasseti.fr\">MaClasseTI.fr</a>)" },
-        { "id": "vsc-h5", "text": "Mentoring of an apprentice (Bac+2) over 1 year" }
+        { "id": "vsc-h5", "text": "Used GitHub Copilot to improve code quality and speed" },
+        { "id": "vsc-h6", "text": "Mentoring of an apprentice (Bac+2) over 1 year" }
       ]
     },
     {
