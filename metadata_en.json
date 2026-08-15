@@ -1,88 +1,126 @@
 {
-  "certifications": [
+  "basics": {
+    "name": "Maxence Lavenu",
+    "role": "Front-end Developer",
+    "location": "Poissy, France",
+    "email": "maxencelav@pm.me",
+    "phone": "+33 7 86 74 66 05",
+    "website": "https://maxencelav.dev",
+    "github": "https://github.com/maxencelav",
+    "linkedin": "https://www.linkedin.com/in/maxence-lavenu/"
+  },
+  "profile": "Focused on modern web technologies and standards, I work regularly with <b>HTML</b>, <b>PHP</b>, <b>JavaScript</b>, <b>CSS</b>, <b>Liquid</b> (Shopify), and <b>WebComponents</b>, while learning <b>React</b> (<b>Next.js</b>/TanStack Start) in my spare time through courses. I have also had the opportunity to use <b>Java</b>, <b>Android Studio</b>, and <b>SQL</b> across various professional and academic projects.",
+  "experiences": [
     {
-      "name": "Joy of React",
-      "issuer": "Josh W Comeau",
-      "date": "",
-      "summary": "Currently following.",
-      "url": "https://joyofreact.com/"
+      "id": "w-unified",
+      "company": "W Unified Group",
+      "position": "Front-end Developer",
+      "date": "March 2024 - Present",
+      "url": ["https://wshop.com", "https://unify-retail.com"],
+      "highlights": [
+        { "id": "w-h1", "text": "Front-end development across 20 e-commerce websites (PHP, SCSS) and a shared back-office built on a Bootstrap template (Twig macros): performance optimisations, bug fixes, and feature development" },
+        { "id": "w-h2", "text": "Contribution to the back-office and web application of UniFy (OMS & Store App)" },
+        { "id": "w-h3", "text": "Design and development (Java, native Android) of a bridge connecting a printer to the in-store sales application, deployed on ~400 terminals" },
+        { "id": "w-h4", "text": "Built the Shopify ↔ UniFy integration app: checkout UI, storefront, and admin UI" },
+        { "id": "w-h5", "text": "Created a WebComponents library (order, return, and stock widgets) embeddable by UniFy's retail clients" },
+        { "id": "w-h6", "text": "Agentic development using GitHub Copilot and Claude Code" }
+      ]
+    },
+    {
+      "id": "vittascience-dev",
+      "company": "Vittascience",
+      "position": "Web Developer",
+      "date": "October 2021 - March 2024",
+      "url": "https://vittascience.com",
+      "highlights": [
+        { "id": "vsc-h1", "text": "Created an Android application for the Buddy robot (emotive robot), controllable via JavaScript" },
+        { "id": "vsc-h2", "text": "Complete overhaul of the Vittascience website (Bootstrap 5) with internationalisation (right-to-left reading direction) and a custom theme" },
+        { "id": "vsc-h3", "text": "Maintenance and development of the open-source project <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://github.com/vittascience/OpenSTEAM-LMS/\">OpenSTEAM-LMS</a> for several clients (Texas Instruments, AREN Éducation...)" },
+        { "id": "vsc-h4", "text": "Full rewrite of an ASP.NET site to PHP in 6 months (<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://maclasseti.fr\">MaClasseTI.fr</a>)" },
+        { "id": "vsc-h5", "text": "Used GitHub Copilot to improve code quality and speed" },
+        { "id": "vsc-h6", "text": "Mentoring of an apprentice (Bac+2) over 1 year" }
+      ]
+    },
+    {
+      "id": "vittascience-apprenticeship",
+      "company": "Vittascience",
+      "position": "Apprenticeship (Web Developer)",
+      "date": "October 2020 - September 2021",
+      "url": "https://vittascience.com",
+      "highlights": [
+        { "id": "vsca-h1", "text": "Integration of Adobe XD mockups on <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://github.com/vittascience/OpenSTEAM-LMS/\">OpenSTEAM-LMS</a> and the Vittascience website, with a theme system via CSS variables" },
+        { "id": "vsca-h2", "text": "Implementation of the new store design, drawing on UX/UI skills acquired on the Classroom platform" },
+        { "id": "vsca-h3", "text": "Integration of the new homepage alongside various landing pages" }
+      ]
+    },
+    {
+      "id": "vittascience-internship",
+      "company": "Vittascience",
+      "position": "Internship (Web Developer)",
+      "date": "March 2020 - August 2020",
+      "url": "https://vittascience.com",
+      "highlights": [
+        { "id": "vsci-h1", "text": "Improved site accessibility (light/dark themes, typography options for dyslexic/visually impaired users)" },
+        { "id": "vsci-h2", "text": "Integration of Adobe XD mockups for a Learning Management System feature" },
+        { "id": "vsci-h3", "text": "Implementation of dynamic visuals and new modules for an Arduino & BBC micro:bit simulator" },
+        { "id": "vsci-h4", "text": "Created 6 pages dedicated to content from Hatier exercise booklets" }
+      ]
+    },
+    {
+      "id": "stellantis-internship",
+      "company": "Stellantis (formerly PSA Groupe)",
+      "position": "IT Support Internship",
+      "date": "December 2015",
+      "highlights": [
+        { "id": "psa-h1", "text": "Discovered how an IT environment is set up in a company (IT support role), visited the PSA Datacenter in Achères, and used Microsoft Office frequently" }
+      ]
     }
   ],
   "education": [
     {
+      "id": "coding-factory",
       "institution": "Coding Factory by ESIEE-IT, Cergy",
       "title": "Computer Applications Developer Analyst",
       "date": "September 2019 - September 2021",
       "url": "https://codingfactory.fr/"
     },
     {
+      "id": "bac-scientifique",
       "institution": "Lycée Charles de Gaulle, Poissy",
       "title": "Scientific Baccalaureate",
       "date": "September 2016 - June 2019",
       "summary": "Engineering Sciences, option Computer and Digital Sciences"
     }
   ],
-  "experiences": [
-    {
-      "company": "Vittascience",
-      "position": "Web Developer",
-      "location": "",
-      "date": "October 2021 - Present",
-      "summary": "<ul><li><p>Creation of an Android application for Buddy The Robot (emotive robot) allowing to control it via JavaScript</p></li><li><p>Complete overhaul of the Vittascience site with Bootstrap 5 for the internationalization of the site via the implementation of right-to-left reading direction, and with the creation of a custom theme</p></li><li><p>Maintenance and evolution of the open-source project <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://github.com/vittascience/OpenSTEAM-LMS/\">OpenSTEAM-LMS</a> for several clients (Texas Instruments, AREN Éducation...)</p></li><li><p>Complete overhaul of an ASP.NET site to PHP in 6 months (<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://maclasseti.fr\">MaClasseTI.fr</a>)</p></li><li>Mentoring of an apprentice (Bac+2) over 1 year</li></ul>",
-      "url": "https://vittascience.com"
-    },
-    {
-      "company": "Vittascience",
-      "position": "Apprenticeship (Web Developer)",
-      "location": "",
-      "date": "October 2020 - September 2021",
-      "summary": "<ul><li><p>Integration of Adobe XD mockups on the open source project <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://github.com/vittascience/OpenSTEAM-LMS/\">OpenSTEAM-LMS</a> and the Vittascience website</p><ul><li><p>Setting up a theme system via CSS variables following the LMS's transition to open source</p></li></ul></li><li><p>Setting up a new design for the store, using UX/UI knowledge acquired on the Classroom platform</p></li><li><p>Integration of the new homepage of the site alongside various landing pages for different projects</p></li></ul>",
-      "url": "https://vittascience.com/"
-    },
-  {
-      "company": "Vittascience",
-      "position": "Internship (Web Developer)",
-      "location": "",
-      "date": "March 2020 - August 2020",
-      "summary": "<ul><li><p>Improved the accessibility of the site by adding a light/dark theme and allowing the user to select different fonts for dyslexic/visually impaired users, while maintaining a consistent interface</p></li><li><p>Implemented dynamic visuals and new modules for an Arduino & BBC micro:bit simulator</p></li><li><p>Integrated Adobe XD mockups to create a Learning Management System feature</p></li><li><p>Created 6 pages dedicated to the content included in Hatier exercise booklets to simplify the experience for their users</p></li></ul>",
-      "url": "https://vittascience.com/"
-    },
-    {
-      "company": "Stellantis (formerly PSA Groupe)",
-      "position": "IT Support Internship",
-      "location": "",
-      "date": "December 2015",
-      "summary": "Discovered how to set up an IT environment for a company (IT Support role), visited their datacenter in Achères, and used Microsoft Office frequently"
-    }
-  ],
-  "interests": ["Design / Graphic Design (Self-taught)", "Retrogaming", "MMORPGs"],
-  "languages": [
-    {
-      "name": "French",
-      "description": "Native"
-    },
-    {
-      "name": "English",
-      "description": "Fluent"
-    }
-  ],
   "projects": [
     {
-      "name": "This resume!",
-      "date": "January 2024",
-      "summary": "Resume entirely created using HTML, CSS, and JavaScript",
-      "url": "https://github.com/maxencelav/cv"
-    },
-    {
+      "id": "portfolio",
       "name": "Portfolio",
       "date": "June 2023 - Present",
-      "summary": "Website created with Astro, Tailwind CSS, and React to list my various projects and professional experiences",
+      "summary": "Website created with Astro, Tailwind CSS, and React to list my various projects and professional experiences.",
       "url": "https://maxencelav.dev"
     },
     {
+      "id": "cv",
+      "name": "This resume!",
+      "date": "January 2024 - Present",
+      "summary": "Resume entirely created using HTML, CSS, and JavaScript.",
+      "url": "https://github.com/maxencelav/cv"
+    },
+    {
+      "id": "techno293",
       "name": "TECHNO 293 Bic European Championship in Larmor-Plage",
       "date": "July 2017",
-      "summary": "Assisted with the setup of the Wi-Fi hotspot login page (HTML + CSS) for the participants of the race"
+      "summary": "Assisted with the setup of the Wi-Fi hotspot login page (HTML + CSS) for the participants of the race."
     }
+  ],
+  "languages": [
+    { "id": "french", "name": "French", "description": "Native" },
+    { "id": "english", "name": "English", "description": "Fluent" }
+  ],
+  "interests": [
+    { "id": "design", "text": "Design / Graphic Design (Self-taught)" },
+    { "id": "retrogaming", "text": "Retrogaming" },
+    { "id": "mmorpg", "text": "MMORPGs" }
   ]
 }

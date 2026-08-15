@@ -1,20 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
 :root {
-  --primary: #3662E3;
-  --primary-rgb: 54, 98, 227;
-  --primary-light: #E1E8FB;
-  --primary-light-rgb: 225, 232, 251;
+  --primary: oklch(73.19% 0.186 52.98);
+  --primary-light: oklch(95.5% 0.028 52.98);
+  --ink: oklch(20% 0.1 52.98);
+  color-scheme: dark;
 }
 
 /* GLOBAL STYLES */
 
-body { padding: 0; margin: 0; }
+body { padding: 0; margin: 0; font-size: 12px;}
 
 @media screen {
-  html {
-    background-color: black;
-  }
   body {
     display: flex;
     flex-direction: column;
@@ -23,8 +18,7 @@ body { padding: 0; margin: 0; }
     min-height: 100vh;
     margin: 0;
     padding: 2em;
-
-    background-color: rgba(var(--primary-rgb), 0.1);
+    background-color: color-mix(in oklch, var(--primary) 20%, black);
     gap: 2em;
   }
 
@@ -35,13 +29,10 @@ body { padding: 0; margin: 0; }
 
   }
 }
-
-
-
 .page {
-  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-family: 'Noto Sans', system-ui, sans-serif;
   font-size: 12px;
-  line-height: 1.5;
+  line-height: 1.45;
   width: 21cm;
   height: 29.7cm;
 
@@ -109,10 +100,20 @@ h2 {
 }
 
 .url {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+
   font-weight: bold;
   text-decoration: none;
   color: black;
   margin-top: 0.25em;
+}
+
+.links {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0.75em;
 }
 
 .item h3,
@@ -146,7 +147,7 @@ h2 {
 /* INFO SECTION */
 
 .info {
-  background-color: var(--primary);
+  background-color: var(--ink);
   color: white;
 
   grid-row-start: 1;
@@ -168,12 +169,12 @@ h2 {
   font-size: 2.4rem;
   line-height: 1;
   margin-inline: 0;
-  margin-block: 0.5em 0.25em;
+  margin-block: 0.5em 0.15em;
 }
 
 .info p {
   font-size: 1em;
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--primary);
   margin-block: 0;
 }
 
@@ -185,15 +186,30 @@ h2 {
 
 .info ul li {
   display: grid;
-  grid-template-columns: 2em 1fr;
+  grid-template-columns: 1.6em 1fr;
+  column-gap: 0.4em;
   align-items: center;
   justify-items: start;
 }
 
-.info ul img {
-  width: 1em;
-  height: 1em;
-  margin-inline-start: 0.2em;
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.6em;
+  height: 1.6em;
+}
+
+.icon svg,
+.icon img {
+  display: block;
+  width: 1.1em;
+  height: 1.1em;
+  object-fit: contain;
+}
+
+.icon svg {
+  fill: currentColor;
 }
 
 .info a {

@@ -1,4 +1,11 @@
 // vite.config.js
 export default {
-    base: '/cv/'
+    base: '/cv/',
+    build: {
+        rollupOptions: {
+            input: {
+                main: 'index.html'
+            }
+        }
+    }
 }
