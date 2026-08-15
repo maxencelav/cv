@@ -9,7 +9,7 @@
     "github": "https://github.com/maxencelav",
     "linkedin": "https://www.linkedin.com/in/maxence-lavenu/"
   },
-  "profile": "Orienté vers les technologies et standards modernes du web, je manipule régulièrement du <b>HTML</b>, <b>PHP</b>, <b>JavaScript</b>, <b>CSS</b>, avec l'apprentissage de <b>React</b> (<b>Next.js</b>) sur mon temps libre via des cours. J'ai aussi eu l'occasion d'utiliser <b>Java</b>, <b>Android Studio</b> ainsi que <b>SQL</b> dans différents projets professionnels ou scolaires.",
+  "profile": "Orienté vers les technologies et standards modernes du web, je manipule régulièrement du <b>HTML</b>, <b>PHP</b>, <b>JavaScript</b>, <b>CSS</b>, <b>Liquid</b> (Shopify), <b>WebComponents</b>, avec l'apprentissage de <b>React</b> (<b>Next.js</b>) sur mon temps libre via des cours. J'ai aussi eu l'occasion d'utiliser <b>Java</b>, <b>Android Studio</b> ainsi que <b>SQL</b> dans différents projets professionnels ou scolaires.",
   "experiences": [
     {
       "id": "w-unified",
@@ -18,11 +18,11 @@
       "date": "Mars 2024 - Aujourd'hui",
       "url": ["https://wshop.com", "https://unify-retail.com"],
       "highlights": [
-        { "id": "w-h1", "text": "Développement front-end sur 20 sites e-commerce (PHP, JS natif, SCSS) et sur le back-office commun, basé sur un template Bootstrap (macros Twig) : optimisations de performance, corrections et évolutions fonctionnelles" },
-        { "id": "w-h2", "text": "Contribution au back-office et à l'application web POS de la solution OMS & StoreApp UniFy" },
-        { "id": "w-h3", "text": "Conception et développement (Java, Android natif) d'un bridge connectant une imprimante au site web POS, déployé sur ~400 bornes en magasin" },
+        { "id": "w-h1", "text": "Développement front-end sur 20 sites e-commerce (PHP, SCSS) et sur le back-office commun, basé sur un template Bootstrap (macros Twig) : optimisations de performance, corrections et évolutions fonctionnelles" },
+        { "id": "w-h2", "text": "Contribution au back-office et à l'application web de la solution UniFy (OMS & Store App)" },
+        { "id": "w-h3", "text": "Conception et développement (Java, Android natif) d'un bridge connectant une imprimante à l'application de vente en magasin, déployé sur ~400 bornes" },
         { "id": "w-h4", "text": "Réalisation de l'application d'intégration Shopify ↔ UniFy : checkout UI, storefront, admin UI" },
-        { "id": "w-h5", "text": "Création d'une librairie JavaScript via des WebComponents réutilisables exposant des widgets à destination des vendeurs en magasin ainsi que clients (détail et retour de commande, information de stock...)" }
+        { "id": "w-h5", "text": "Création d'une librairie de WebComponents (widgets commande, retour, stock) intégrable par les enseignes clientes de UniFy" }
       ]
     },
     {
