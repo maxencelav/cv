@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Custom styles loaded at runtime via ?style=<name> (see main.js)
+public/custom-styles/*
+!public/custom-styles/.gitkeep
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

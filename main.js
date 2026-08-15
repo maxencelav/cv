@@ -21,6 +21,21 @@ function icon(name) {
   return `<span class="icon icon-${name}">${ICONS[name]}</span>`;
 }
 
+/** Loads an optional custom stylesheet from /custom-styles/<name>.css, selected via the ?style= URL param. Disables the original styles. */
+function loadCustomStyle() {
+  const name = new URLSearchParams(window.location.search).get('style');
+  if (!name || !/^[a-zA-Z0-9_-]+$/.test(name)) return;
+
+  document.querySelectorAll('link[rel="stylesheet"], style').forEach(el => { el.disabled = true; });
+
+  const link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.href = `${import.meta.env.BASE_URL}custom-styles/${name}.css`;
+  document.head.appendChild(link);
+
+  
+}
+
 const stripProtocol = (url) => url.replace(/(^\w+:|^)\/\//, '').replace(/\/$/, '');
 const lastSegment = (url) => stripProtocol(url).split('/').filter(Boolean).pop();
 
@@ -186,5 +201,6 @@ function renderPage(lang, data) {
 window.addEventListener('DOMContentLoaded', () => {
   renderPage('fr', dataFR);
   renderPage('en', dataEN);
+  loadCustomStyle();
 });
 
