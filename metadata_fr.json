@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Maxence Lavenu",
-    "role": "Développeur front-end",
+    "role": "Analyste développeur d'applications",
     "location": "Poissy, France",
     "email": "maxencelav@pm.me",
     "phone": "+33 7 86 74 66 05",
@@ -9,7 +9,7 @@
     "github": "https://github.com/maxencelav",
     "linkedin": "https://www.linkedin.com/in/maxence-lavenu/"
   },
-  "profile": "Orienté vers les technologies et standards modernes du web, je manipule régulièrement du <b>HTML</b>, <b>PHP</b>, <b>JavaScript</b>, <b>CSS</b>, <b>Liquid</b> (Shopify), <b>WebComponents</b>, avec l'apprentissage de <b>React</b> (<b>Next.js</b>/TanStack Start) sur mon temps libre via des cours. J'ai aussi eu l'occasion d'utiliser <b>Java</b>, <b>Android Studio</b> ainsi que <b>SQL</b> dans différents projets professionnels ou scolaires.",
+  "profile": "Orienté vers les technologies et standards modernes du web, je manipule régulièrement du <b>HTML</b>, <b>PHP</b>, <b>JavaScript</b>, <b>CSS</b>, <b>Liquid</b> (Shopify), <b>WebComponents</b>, avec l'apprentissage de <b>React</b> (<b>Next.js</b>/TanStack Start) sur mon temps libre via des cours. J'ai aussi eu l'occasion d'utiliser <b>Java</b>, <b>Android Studio</b> ainsi que <b>SQL</b> dans différents projets professionnels ou scolaires. Sur mes projets personnels, j'expérimente également le back-end avec <b>Prisma</b>, <b>SQLite</b> et <b>PostgreSQL</b>.",
   "experiences": [
     {
       "id": "w-unified",
